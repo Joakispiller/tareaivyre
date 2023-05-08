@@ -1,3 +1,63 @@
+*{padding: 0px; margin: 0px;}
 body{
     background: linear-gradient(to right, white 60%, rgb(214, 189, 166) 40%);
 }
+/* nav lado izquierdo */
+
+nav{
+  display: flex;
+ justify-content: space-between;
+ margin: 0em 0em 0em 0em;
+
+}
+.ivy{
+    margin: 0.5em 2em 0em 2em;
+    font-size: 2.1rem;
+}
+.casas{
+    margin-top: 1.8em;
+}
+
+.home{
+    text-decoration: none;
+    color: black;
+    margin: 1em 3em 0em 0em ;
+    font-size: 0.8rem;
+}
+/* nav lado derecho */
+
+.svg, .svg1{
+    margin-top: 1.4em;
+    width: 1.4rem;
+}
+.svg1 {
+    margin-left: 25em;
+    margin-right: -2.3em;
+}
+
+.miniraya{
+border: none;
+width: 0.063rem;
+border-left: 0.125rem solid rgba(99, 83, 68, 0.3 );
+height: 1.2rem ;
+margin-top: 1.5em;
+margin-left: -1.8em;
+}
+
+.sign{
+    margin-top: 2em;
+    font-size: 0.8rem;
+    margin-left: -4em;
+}
+
+.botonup{
+background-color: transparent;
+font-size: 0.7rem;
+border: 0.063rem solid black ;
+padding: 0.25em 0.7em  ;
+margin-top: 2em;
+margin-right: 4em;
+margin-left: -3.5em;
+}
+/* termine el header */
+
