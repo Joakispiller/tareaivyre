@@ -69,7 +69,7 @@ background-color: transparent;
 font-size: 0.7rem;
 border: 0.063rem solid black ;
 padding: 0.25em 0.7em  ;
-margin-top: 2em;
+margin-top: 2.2em;
 margin-right: 4em;
 margin-left: -3.5em;
 font-family: Arial, Helvetica, sans-serif;
@@ -142,4 +142,32 @@ height: 3rem ;
     width: 2rem;
     border-left: 0.2rem solid rgba(116, 93, 60, 0.534);
     height: 5.5rem ;
+}
+
+/* pseudo */
+
+.home:hover{
+    border-bottom: 0.1rem solid black;
+    
+}
+ .svg1:hover{
+    filter: opacity(70%);
+ }
+ .svg:hover{
+    filter: opacity(70%);
+ }
+.sign:hover{
+    margin-top: 2em;
+    font-size: 0.8rem;
+    margin-left: -5.4em;
+}
+
+.shop:hover{
+    color: white;
+    font-weight:600;
+    border: 0.12rem solid black;
+    margin-top: 3.5rem ;
+    margin-left: 3rem;
+    background-color: black;
+    padding: 0.8em 2em ;
 }
